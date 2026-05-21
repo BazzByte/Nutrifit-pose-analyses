@@ -1,4 +1,4 @@
-# 🏋️ Fitness AI — محلل التمارين الذكي
+NUTRIFIT POSE ANALYSES محلل التمارين الذكي
 
 **محلل تمارين لياقة بدنية في الوقت الفعلي باستخدام الذكاء الاصطناعي**  
 **Real-time AI-powered fitness exercise analyzer**
