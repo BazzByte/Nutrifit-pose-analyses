@@ -1,0 +1,8 @@
+from .thresholds import (
+    PUSHUP_CFG, PULLUP_CFG, JUMPJACK_CFG,
+    CRUNCH_CFG, SQUAT_CFG, REP_CFG, VIZ_CFG,
+)
+__all__ = [
+    "PUSHUP_CFG", "PULLUP_CFG", "JUMPJACK_CFG",
+    "CRUNCH_CFG", "SQUAT_CFG", "REP_CFG", "VIZ_CFG",
+]
