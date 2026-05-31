@@ -1,27 +1,24 @@
-# ============================================================
-# fitness_ai — متطلبات المشروع الكاملة
-# fitness_ai — Full project requirements
-# ============================================================
+# ✅ FIX: opencv-python-headless (NOT opencv-python!)
+# opencv-python يحتاج X11/display - مش موجود على Railway
+# opencv-python-headless يشتغل بدون display بيئات السيرفر
 
-# كشف الوضعية / Pose detection
-mediapipe>=0.10.0
-
-# معالجة الصور والكاميرا / Image & camera processing
-opencv-python>=4.8.0
-
-# حسابات رياضية / Math & arrays
-numpy>=1.24.0
-
-# دعم النص العربي والخطوط / Arabic text & font rendering
-Pillow>=10.0.0
-arabic-reshaper>=3.0.0
-python-bidi>=0.4.2
-
-# خادم HTTP للتكامل مع Flutter / HTTP server for Flutter integration
 fastapi>=0.104.0
 uvicorn[standard]>=0.24.0
 python-multipart>=0.0.6
+pydantic>=2.0.0
 
-# اختبارات / Testing
-pytest>=7.4.0
-pytest-cov>=4.1.0
+# ✅ OpenCV Headless — بدون X11 / no display needed
+opencv-python-headless>=4.8.0
+
+# MediaPipe — pose detection
+mediapipe>=0.10.0
+
+# Numerics
+numpy>=1.24.0
+
+# Arabic font rendering (optional - only if arabic_renderer.py needs it)
+Pillow>=10.0.0
+
+# Arabic text reshaping (optional - for RTL text)
+arabic-reshaper>=3.0.0
+python-bidi>=0.4.2
